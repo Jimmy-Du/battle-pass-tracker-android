@@ -90,5 +90,11 @@
                 android:targetPackage="com.jdu.battlepasstracker"
                 android:targetClass="com.jdu.battlepasstracker.activities.AboutActivity"/>
         </Preference>
+        <Preference
+            android:title="Privacy Policy"
+            android:icon="@drawable/ic_baseline_open_in_new_24">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Jimmy-Du/battle-pass-tracker-android/blob/main/privacy-policy.md" />
+        </Preference>
     </PreferenceCategory>
 </PreferenceScreen>

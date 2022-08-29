@@ -15,9 +15,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BattlePassTracker">
         <activity
-            android:name="com.jdu.battlepasstracker.activities.AboutActivity"
-            android:exported="false" />
-        <activity
             android:name="com.jdu.battlepasstracker.MainActivity"
             android:exported="true">
             <intent-filter>

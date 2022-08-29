@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home_label" />
+
+    <item
+        android:id="@+id/eventsFragment"
+        android:icon="@drawable/ic_baseline_event_24"
+        android:title="@string/events_label"/>
+
+    <item
+        android:id="@+id/selectGameFragment"
+        android:icon="@drawable/ic_outline_check_box_24"
+        android:title="@string/select_games_label" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/settings_label"/>
+</menu>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/battle_pass_notifications_title"
+        android:icon="@drawable/ic_baseline_videogame_asset_24">
+
+        <SwitchPreferenceCompat
+            android:key="BPNotifications"
+            android:defaultValue="true"
+            android:title="@string/enable_notifications_title"/>
+
+        <SwitchPreferenceCompat
+            android:key="BPWeeklyNotifications"
+            android:title="@string/weekly_notification_title"/>
+
+        <ListPreference
+            android:key="BPWeeklyNotificationsDay"
+            android:title="@string/weekly_notification_day_title"
+            android:summary="@string/weekly_notification_day_summary"
+            android:defaultValue="1"
+            android:entryValues="@array/numeric_days_array"
+            android:entries="@array/days_of_week" />
+
+        <SwitchPreferenceCompat
+            android:key="BPStartNotifications"
+            android:defaultValue="true"
+            android:title="@string/season_start_notification_title"/>
+
+        <SwitchPreferenceCompat
+            android:key="BPHalfwayNotifications"
+            android:defaultValue="true"
+            android:title="@string/halfway_notification_title"/>
+
+        <SwitchPreferenceCompat
+            android:key="BPQuarterNotifications"
+            android:defaultValue="true"
+            android:title="@string/final_quarter_notification_title"/>
+
+        <SwitchPreferenceCompat
+            android:key="BPFinalWeekNotifications"
+            android:defaultValue="true"
+            android:title="@string/final_week_notification_title"/>
+
+        <SwitchPreferenceCompat
+            android:key="BPFinalDayNotifications"
+            android:defaultValue="true"
+            android:title="@string/final_day_notification_title"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Event Notifications"
+        android:icon="@drawable/ic_baseline_event_24">
+
+        <SwitchPreferenceCompat
+            android:key="EventNotifications"
+            android:defaultValue="true"
+            android:title="@string/enable_notifications_title"/>
+
+        <SwitchPreferenceCompat
+            android:key="EventStartNotifications"
+            android:defaultValue="true"
+            android:title="@string/event_start_notification_title"/>
+
+        <SwitchPreferenceCompat
+            android:key="EventHalfwayNotifications"
+            android:defaultValue="true"
+            android:title="@string/halfway_notification_title"/>
+
+        <SwitchPreferenceCompat
+            android:key="EventQuarterNotifications"
+            android:defaultValue="true"
+            android:title="@string/final_quarter_notification_title"/>
+
+        <SwitchPreferenceCompat
+            android:key="EventFinalWeekNotifications"
+            android:defaultValue="true"
+            android:title="@string/final_week_notification_title"/>
+
+        <SwitchPreferenceCompat
+            android:key="EventFinalDayNotifications"
+            android:defaultValue="true"
+            android:title="@string/final_day_notification_title"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="About"
+        android:icon="@drawable/ic_baseline_help_outline_24">
+        <Preference
+            android:title="Info about this app."
+            android:summary="Click here to view more information about Battle Pass Tracker.">
+            <intent
+                android:targetPackage="com.jdu.battlepasstracker"
+                android:targetClass="com.jdu.battlepasstracker.activities.AboutActivity"/>
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

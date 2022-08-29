@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.jdu.battlepasstracker.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/selectGameFragment"
+        android:name="com.jdu.battlepasstracker.fragments.SelectGameFragment"
+        android:label="fragment_select_game"
+        tools:layout="@layout/fragment_select_game" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.jdu.battlepasstracker.fragments.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/eventsFragment"
+        android:name="com.jdu.battlepasstracker.fragments.EventsFragment"
+        android:label="EventsFragment" />
+</navigation>

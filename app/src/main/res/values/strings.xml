@@ -1,0 +1,43 @@
+<resources>
+    <!-- App Displayed Strings -->
+    <string name="app_name">Battle Pass Tracker</string>
+    <string name="sort_default_option">End Date (ASC)</string>
+    <string name="event_sort_default_option">All Games</string>
+    <string name="home_label">Home</string>
+    <string name="events_label">Events</string>
+    <string name="select_games_label">Select Games</string>
+    <string name="settings_label">Settings</string>
+    <string name="days_left_label">Days Left</string>
+    <string name="sort_label">Sort</string>
+    <string name="save_game_label">Save Game Selection</string>
+    <string name="description_summary">
+        The Battle Pass Tracker application provides the dates
+        and time remaining of various video game battle passes, and reminders at certain intervals throughout
+        the battle pass duration so that users are never surprised about when a battle pass is ending.
+    </string>
+
+    <!-- Preferences Strings -->
+    <string name="shared_preferences_string">BPTSharedPreferences</string>
+    <string name="select_games_preference_key">BPTSelectedGames</string>
+
+    <!-- Notification Strings  -->
+    <string name="battle_pass_channel_id">BPTBattlePass</string>
+    <string name="battle_pass_channel_name">Battle Passes</string>
+    <string name="notification_worker_name">BPTNotificationWork</string>
+    <string name="event_channel_id">BPTEvent</string>
+    <string name="event_channel_name">Events</string>
+    <string name="event_notification_worker_name">BPTEventNotificationWork</string>
+
+    <!-- Preference Screen Strings -->
+    <string name="battle_pass_notifications_title">Battle Pass Notifications</string>
+    <string name="enable_notifications_title">Enable Notifications</string>
+    <string name="weekly_notification_title">Weekly Notification</string>
+    <string name="weekly_notification_day_title">Weekly Notification Day</string>
+    <string name="weekly_notification_day_summary">The day that weekly notifications will be sent</string>
+    <string name="season_start_notification_title">Season Start Notification</string>
+    <string name="halfway_notification_title">Halfway Notification</string>
+    <string name="final_quarter_notification_title">Final Quarter Notification</string>
+    <string name="final_week_notification_title">Final Week Notification</string>
+    <string name="final_day_notification_title">Final Day Notification</string>
+    <string name="event_start_notification_title">Event Start Notification</string>
+</resources>

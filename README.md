@@ -5,6 +5,9 @@ for the games that they play. Users can also opt-in for notifications displayed 
 when certain periods of time has passed during the battle pass season to remind them of when the season 
 is ending.
 
+## Downloads
+[Google Play](https://play.google.com/store/apps/details?id=com.jdu.battlepasstracker)
+
 ## Screenshots
 <p>
   <img src="./docs/images/home-screen.png" alt="Home Screen View" height="500px"/>

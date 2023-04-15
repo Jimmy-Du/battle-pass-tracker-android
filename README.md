@@ -22,7 +22,7 @@ With more and more games adding battle passes and limited time in game events, i
     <img src='https://img.shields.io/badge/Kotlin-FFFFFF?style=for-the-badge&logo=Kotlin&logoColor=7F52FF' alt='Kotlin'/>
   </li>
   <li>
-    <img src='https://img.shields.io/badge/Material 3-FFFFFF?style=for-the-badge&logo=Material-Design&logoColor=757575' alt='Kotlin'/>
+    <img src='https://img.shields.io/badge/Material 3-FFFFFF?style=for-the-badge&logo=Material-Design&logoColor=757575' alt='Material 3'/>
   </li>
   <li>Retrofit</li>
 </ul>
